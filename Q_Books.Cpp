@@ -1,8 +1,8 @@
 /*Question:
 Consider the following C++ class definition for Book. The class contains three attributes: name, price, and numOfPages, along with two methods:
 
-countBooks(int p): Returns 1 if the book's price is less than p, otherwise returns 0.
-isBookPresent(char book): Returns true if the book's name matches the given character, otherwise returns false.*/
+1. countBooks(int p): Returns 1 if the book's price is less than p, otherwise returns 0.
+2. isBookPresent(char book): Returns true if the book's name matches the given character, otherwise returns false.*/
 
 #include <iostream>
 using namespace std;
