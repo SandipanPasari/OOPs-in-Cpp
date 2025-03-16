@@ -1,8 +1,3 @@
-/* Three types of Access modifiers
-   Public: Accessible from anywhere.
-   Private: Accessible only within the class.
-   Protected: Accessible within the class and its subclasses. */
-
 /*Class:
 A class is a blueprint or template for creating objects. It defines attributes (variables) and behaviors (methods) that the objects created from the class will have.
 Object:

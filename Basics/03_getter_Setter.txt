@@ -1,0 +1,3 @@
+/*In Object-Oriented Programming (OOP), getter and setter methods are used to access and modify private attributes of a class. These methods help in encapsulation by restricting direct access to the class attributes while allowing controlled interaction.
+A getter is a method that retrieves (gets) the value of a private attribute.
+A setter is a method that updates (sets) the value of a private attribute with validation or constraints.*/
