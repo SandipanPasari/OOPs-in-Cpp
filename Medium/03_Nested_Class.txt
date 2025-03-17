@@ -1,0 +1,5 @@
+A **nested class** in C++ is a class that is defined inside another class. It helps in logically grouping related functionalities and restricting access to certain internal components of the outer class. A nested class can be **private**, **protected**, or **public**, depending on how the outer class wants to expose it.  
+
+If a nested class is **private**, it can only be accessed by the outer class, making it useful for encapsulating helper functionality. A **public nested class** allows external access using the scope resolution operator (`OuterClass::NestedClass`). A **protected nested class** can be used inside derived classes but remains inaccessible outside the inheritance hierarchy.  
+
+Nested classes are often used when a class needs an auxiliary structure that is tightly coupled with its functionality, such as a `Helmet` inside a `Player` class in a game, where the helmet properties belong to the player and are not meant to be used separately. This approach improves encapsulation, reduces namespace pollution, and enhances maintainability.
