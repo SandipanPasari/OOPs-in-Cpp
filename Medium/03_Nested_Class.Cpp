@@ -70,6 +70,11 @@ public:
         helmet.setHp(health);
         helmet.setLevel(level);
     }
+    void getHelmet()
+    {
+        cout << helmet.getHp() << endl;
+        cout << helmet.getLevel() << endl;
+    }
 };
 
 int addScore(Player a, Player b)
@@ -104,11 +109,19 @@ int main()
     Sandipan.setisAlive(true);
     Sandipan.setGun(akm);
 
+    Gun gun123 = Sandipan.getGun();
+    cout << gun123.damage << endl;
+    cout << gun123.ammo << endl;
+    cout << gun123.scope << endl;
+
     Raghav.setAge(21);
     Raghav.setHealth(60);
     Raghav.setScore(75);
     Raghav.setisAlive(true);
     Raghav.setGun(awm);
+    Raghav.setHelmet(3);
+
+    Raghav.getHelmet();
 
     Urvi->setAge(24);
     Urvi->setHealth(65);
