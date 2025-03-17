@@ -1,8 +1,8 @@
-// Passing a Class as a Parameter: A class can be passed to a function using an object, reference, or pointer. Passing by reference or pointer avoids unnecessary copying and improves efficiency.
+Passing a Class as a Parameter: A class can be passed to a function using an object, reference, or pointer. Passing by reference or pointer avoids unnecessary copying and improves efficiency.
 
-/*Returning a Class from a Function: 
+Returning a Class from a Function: 
 A function can return a class in different ways:-
 1. Returning an object (returns a copy). 
 2. Returning a pointer (useful for dynamic memory allocation). 
 3.Returning a reference (must ensure the object exists). 
-4. Returning a class type (useful in factory patterns).*/
+4. Returning a class type (useful in factory patterns).
