@@ -1,4 +1,4 @@
-/* Three types of Access modifiers
+Three types of Access modifiers
    Public: Accessible from anywhere.
    Private: Accessible only within the class.
-   Protected: Accessible within the class and its subclasses. */
+   Protected: Accessible within the class and its subclasses. 
